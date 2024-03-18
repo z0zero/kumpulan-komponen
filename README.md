@@ -4,51 +4,41 @@ Berikut adalah struktur direktori untuk aplikasi Next.js:
 
 ```
 my-nextjs-app/
+├── .next/
+├── node_modules/
+├── public/
 ├── src/
 │   ├── app/
+│   │   ├── about/
+│   │   │   └── ...
 │   │   ├── api/
-│   │   │   └── hello.ts
+│   │   │   └── ...
+│   │   ├── blog/
+│   │   │   └── ...
 │   │   ├── components/
-│   │   │   ├── Header.tsx
-│   │   │   ├── Footer.tsx
 │   │   │   └── ...
-│   │   ├── hooks/
-│   │   │   └── useCustomHook.ts
-│   │   ├── lib/
-│   │   │   ├── db.ts
+│   │   ├── contact/
 │   │   │   └── ...
-│   │   ├── models/
-│   │   │   ├── User.ts
+│   │   ├── product/
 │   │   │   └── ...
-│   │   ├── pages/
-│   │   │   ├── index.tsx
-│   │   │   ├── about.tsx
-│   │   │   ├── contact.tsx
-│   │   │   └── ...
-│   │   ├── styles/
-│   │   │   ├── globals.css
-│   │   │   └── ...
-│   │   └── utils/
-│   │       ├── helpers.ts
-│   │       └── ...
-├── public/
-│   ├── favicon.ico
-│   ├── images/
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── hooks/
 │   │   └── ...
-│   └── ...
-├── prisma/
-│   ├── schema.prisma
-│   └── ...
-├── tests/
-│   ├── unit/
+│   ├── lib/
 │   │   └── ...
-│   └── integration/
+│   └── types/
 │       └── ...
-├── .env
+├── .eslintrc.json
 ├── .gitignore
-├── package.json
-├── tsconfig.json
+├── .prettierrc
+├── next-env.d.ts
 ├── next.config.js
+├── package-lock.json
+├── package.json
+├── postcss.config.js
 └── README.md
 ```
 
