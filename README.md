@@ -4,32 +4,33 @@ Berikut adalah struktur direktori untuk aplikasi Next.js:
 
 ```
 my-nextjs-app/
-├── app/
-│   ├── api/
-│   │   └── hello.ts
-│   ├── components/
-│   │   ├── Header.tsx
-│   │   ├── Footer.tsx
-│   │   └── ...
-│   ├── hooks/
-│   │   └── useCustomHook.ts
-│   ├── lib/
-│   │   ├── db.ts
-│   │   └── ...
-│   ├── models/
-│   │   ├── User.ts
-│   │   └── ...
-│   ├── pages/
-│   │   ├── index.tsx
-│   │   ├── about.tsx
-│   │   ├── contact.tsx
-│   │   └── ...
-│   ├── styles/
-│   │   ├── globals.css
-│   │   └── ...
-│   └── utils/
-│       ├── helpers.ts
-│       └── ...
+├── src/
+│   ├── app/
+│   │   ├── api/
+│   │   │   └── hello.ts
+│   │   ├── components/
+│   │   │   ├── Header.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   └── ...
+│   │   ├── hooks/
+│   │   │   └── useCustomHook.ts
+│   │   ├── lib/
+│   │   │   ├── db.ts
+│   │   │   └── ...
+│   │   ├── models/
+│   │   │   ├── User.ts
+│   │   │   └── ...
+│   │   ├── pages/
+│   │   │   ├── index.tsx
+│   │   │   ├── about.tsx
+│   │   │   ├── contact.tsx
+│   │   │   └── ...
+│   │   ├── styles/
+│   │   │   ├── globals.css
+│   │   │   └── ...
+│   │   └── utils/
+│   │       ├── helpers.ts
+│   │       └── ...
 ├── public/
 │   ├── favicon.ico
 │   ├── images/
